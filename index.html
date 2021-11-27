@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IoTONE</title>
+  <link rel="icon" href="logo.jpg">
+
+  <!-----------------------------------------CSS Stylesheets---------------------------------------->
+  <link rel="stylesheet" href="CSS/style.css">
+  <!----------------------------------------Font Awesome------------------------------------------->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/353f6c9f1e.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+  <!--main-------------- - - - - --->
+  <div id="navbar">
+    <!-- <div id="logo"><img src="Images/logo.png" alt="logo"</div> -->
+    <div href="#" class="logo-pic"><img src="Images/logo.jpg" id="logo" alt="logo"></div>
+    <!-- <a href="#default" id="logo">CompanyLogo</a> -->
+    <div id="navbar-left">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#solution">Solutions</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <!--Language-------->
+
+    <div class="rightNav">
+      <input type="text1" name="search" id="search">
+      <a href="#contact">
+        <button href="services" class="btn-sm">CONTACT US</button>
+      </a>
+    </div>
+    <a href="#" class="lang">En</a>
+  </div>
+
+
+  <!----------------------------------------- Title-------------------------------------------->
+
+  <section class="full-width" id="home">
+
+    <!-- <div style="margin-top:5px;padding:0px 0px 2500px;font-size:30px"> -->
+    <div class="box-main">
+      <video class="background-video-image" autoplay muted loop playsinline id="myVideo" src="Images/Title .mp4"
+        type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+      <div class="col-lg-6">
+        <div class="content">
+          <h1>Engineering the Future </h1>
+        </div>
+      </div>
+    </div>
+    <!-- </div> -->
+  </section>
+
+
+  <!--== == == == == == == == == == == == DIV-2 == == == == == == == == == == == == == == == -->
+  <section class="slider" id="about">
+    <div class="slideshow-container">
+
+      <div class="mySlides">
+
+        <h1 class="title__bottom-line">Cybersecurity By Design</h1>
+
+        <h3 class="author">- To stay ahead of the ever-evolving battle against cyber attacks, security must be
+          architected into every facet of your business. You need security as pervasive as your cloud. Security that
+          matches the pace of agile development. Security designed into your enterprise systems. Cybersecurity By Design
+          does just that.</h3>
+      </div>
+
+      <div class="mySlides" id="mySlides2">
+        <h1 class="title__bottom-line">The Future of Banking, Made Real</h1>
+
+        <h3 class="author">- TBy combining our core engineering expertise and human-centric innovation capabilities, we
+          help companies achieve total automation of customer interactions and channel ubiquity, enabled by APIs and
+          AI-powered intelligent assistants.</h3>
+      </div>
+
+      <div class="mySlides" id="mySlides3">
+        <h1 class="title__bottom-line">Cybersecurity By Design</h1>
+
+        <h3 class="author">- To stay ahead of the ever-evolving battle against cyber attacks, security must be
+          architected into every facet of your business. You need security as pervasive as your cloud. Security that
+          matches the pace of agile development. Security designed into your enterprise systems. Cybersecurity By Design
+          does just that.</h3>
+      </div>
+      <div class="mySlides" id="mySlides4">
+        <h1 class="title__bottom-line">Cybersecurity By Design</h1>
+
+        <h3 class="author">- To stay ahead of the ever-evolving battle against cyber attacks, security must be
+          architected into every facet of your business. You need security as pervasive as your cloud. Security that
+          matches the pace of agile development. Security designed into your enterprise systems. Cybersecurity By Design
+          does just that.</h3>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+
+    <div class="dot-container">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+  </section>
+
+  <!-- == == == == == == == == == == == DIV-3== == == == == == == == == == == == == == == -->
+  <!-- - - - - - - - - - - - - - - - - -RoloverTiles     - - - - - - - - - -  - - - -  - -->
+
+  <section class="section-ui" id="solution">
+
+    <div class="rollover-tiles">
+      <div class="roll-container">
+        <img src="Images/Consult-Yellow.svg" alt="Avatar" class="image">
+        <strong class="rollover-tiles__title">Consult</strong>
+        <div class="overlay">
+          <div class="text">We harness the power of our integrated consulting talent, alongside our data expertise, to
+            work out where we can provide value and address your unique needs.</div>
+        </div>
+      </div>
+
+      <div class="roll-container">
+        <img src="Images/Design-Yellow.svg" alt="Avatar" class="image">
+        <strong class="rollover-tiles__title">Design</strong>
+        <div class="overlay">
+          <div class="text">Our talented designers bring your ideas to life. They know how to humanize technology and
+            business to create meaningful, multimodal digital experiences.</div>
+        </div>
+      </div>
+
+
+
+      <div class="roll-container">
+        <img src="Images/Engineer-Blue.svg" alt="Avatar" class="image">
+        <strong class="rollover-tiles__title">Engineer</strong>
+        <div class="overlay">
+          <div class="text">Our talented designers bring your ideas to life. They know how to humanize technology and
+            business to create meaningful, multimodal digital experiences.</div>
+        </div>
+      </div>
+
+
+      <div class="roll-container">
+        <img src="Images/Operate-Blue.svg" alt="Avatar" class="image">
+        <strong class="rollover-tiles__title">Operate</strong>
+        <div class="overlayroll">
+          <div class="text">We deploy commercial software product practices to deliver next-generation integrated &amp;
+            smart-run services.</div>
+        </div>
+      </div>
+
+      <div class="roll-container">
+        <img src="Images/Optimize-Blue.svg" alt="Avatar" class="image">
+        <strong class="rollover-tiles__title">Optimize</strong>
+        <div class="overlayroll">
+          <div class="text">Process optimization turned into platforms for innovation through data-driven decisions and
+            a product-centric approach.</div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!--= = = = = = = = = =  = = = == == == == == DIV4 == = = = = = = = = = = = = = = = = = = = = -->
+  <!--------------------------------------- Solution&Services ---------------------------------->
+  <section class="services" id="services">
+    <div class="heading white">
+      <h2>Our Services</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+    </div>
+    <div class="contents">
+      <div class="servicesBx">
+        <img src="Images/icon1.jpg" alt="Avatar" class="images">
+        <h2>Web designe</h2>
+        <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites. 
+          The different areas of web design include web graphic design; user interface design; authoring, including 
+          standardised code and proprietary software; user experience design; and search engine optimization.</p>
+      </div>
+      <div class="servicesBx">
+        <img src="Images/icon2.jpg" alt="Avatar" class="images">
+        <h2>Web Development</h2>
+        <p>Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing 
+          a simple single static page of plain text to complex web applications, electronic businesses, and social network services.</p>
+      </div>
+      <div class="servicesBx">
+        <img src="Images/icon3.jpg" alt="Avatar" class="images">
+        <h2>Android App</h2>
+        <p>An Android app is a software application running on the Android platform. Because the Android platform is built for mobile devices, 
+          a typical Android app is designed for a smartphone or a tablet PC running on the Android OS.</p>
+      </div>
+      <div class="servicesBx">
+        <img src="Images/icon4.jpg" alt="Avatar" class="images">
+        <h2>Photography</h2>
+        <p>Photography is the art, application, and practice of creating durable images by recording light, either electronically by means of an image sensor, 
+          or chemically by means of a light-sensitive material such as photographic film.</p>
+      </div>
+      <div class="servicesBx">
+        <img src="Images/icon5.jpg" alt="Avatar" class="images">
+        <h2>Content Writing</h2>
+        <p>Our flexible platform offers powerful tools and expert writers that enhance any business’ content process.</p>
+      </div>
+      <div class="servicesBx">
+        <img src="Images/icon6.jpg" alt="Avatar" class="images">
+        <h2>Video Editing</h2>
+        <p>Create Eye-Catching Videos with Our Smart Editor for a Polished, Professional Look. Create Stunning Video Ads with a Quick and Easy to Use Video Maker. 
+          Learn More. Distribution tools. Custom fonts. Advanced marketing tools. Custom colors. Video transitions.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!--= = = = = = = = = =  = = = == == == == == DIV5 == = = = = = = = = = = = = = = = = = = = = -->
+  <!--------------------------------------- Contact -------------------------------------------->
+  <section class="Contact" id="contact">
+    <div class="container1">
+      <div style="text-align:center; line-height: 1">
+        <h1 class="contact1">Contact Us</h1>
+        <p class="contact2">We would love to hear from you.</p>
+        <p class="contact3">Please submit your information and we will get back to you.</p>
+      </div>
+      <div class="row">
+        <div class="column1">
+          <!-- <img src="Images/Title img.jpg" style="width:100%"> -->
+          <div class="content1">
+            <div class="contentInfo">
+              <h3 class="CCC">Contact Info</h3>
+              <div class="contactInfoBox">
+                <div class="box">
+                  <div class="icon">
+                    <i class="fa fa-map-marker"></i></div>
+                  <div class="textC">
+                  <h3>Address</h3>
+                  <p>Grigore Plesoianu,<br>Craiova ROMANIA,<br>Post Code: 200457</p>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="icon">
+                    <i class="fa fa-phone"></i </div>
+                  <div class="textC">
+                    <h3>Phone</h3>
+                      <p>+4-079-039-6646</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="icon">
+                    <i class="fa fa-envelope-o"></i </div>
+                  <div class="textC">
+                    <h3>Email</h3>
+                      <p>ariful.mr.islam@gmail.com</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <img src="Images/Title img.jpg" style="width:100%"> -->
+          <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45667.34396991159!2d23.739206299971684!3d44.32620947093475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4752d70e6d6dcd07%3A0x4650f2eadbde99f9!2sCraiova!5e0!3m2!1sen!2sro!4v1610296620726!5m2!1sen!2sro" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+        </div>
+        <div class="column2">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="items">I would like to discuss:</label>
+            <select id="country" name="country">
+              <option value="Internet of Things">Internet of Things</option>
+              <option value="Automation and Solutions">Automation and Solutions</option>
+              <option value="Web Applications">Web Applications</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <input href="#home" type="submit" value="Send a Message">
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--= = = = = = = = = =  = = = == == == == == DIV6 == = = = = = = = = = = = = = = = = = = = = -->
+<!-------------Copyright-->
+<footer>
+  <div class="container-fluid">
+    <i href="#www.facebook.com" class="social-icon fab fa-facebook-f"></i>
+    <i class="social-icon fab fa-twitter"></i>
+    <i class="social-icon fab fa-instagram"></i>
+    <i class="social-icon fas fa-envelope"></i>
+    <p>
+      Copyright @ 2021 IoTONE. All Right Reserved.
+    </p>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+      // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+      window.onscroll = function () { scrollFunction() };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+          document.getElementById("navbar").style.padding = "5px 65px";
+          document.getElementById("logo").style.fontSize = "15px";
+        } else {
+          document.getElementById("navbar").style.padding = "10px 65px";
+          document.getElementById("logo").style.fontSize = "15px";
+        }
+      }
+    </script>
+
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+
+
+</body>
+
+</html>

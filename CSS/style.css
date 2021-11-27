@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+/*CSS Document*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: #161616; */
+    scroll-behavior: smooth;
+    /* text-align: center; */
+}
+/* Navigation Bar */
+.lang{
+    color: #292929;
+    position: relative;
+    right: 60px;
+
+    }
+.rightNav{
+  width:20%;
+}
+.btn-sm{
+  padding: 8px 10px;
+  margin: 5px 0;
+  border: 1px solid  rgb(118, 205, 216);
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.btn-sm:hover{
+  color: rgb(118, 205, 216);
+  background-color: black;
+
+}
+#search{
+  margin: 5px 0;
+  border: 1px solid  rgb(118, 205, 216);
+  border-radius: 4px;
+  vertical-align: middle;
+  height:20px;
+  /* width:150px; */
+  
+}
+#navbar {
+    overflow: hidden;
+    background-color: rgb(35, 31, 32);
+    padding: 10px 30px;
+    /* transition: 0.4s; */
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: calivri;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+    z-index: 51;
+  }
+  /* #navbar-left{
+    list-style: none;
+    padding: 5px 5px;
+  } */
+  #navbar a {
+    /* float: left; */
+    color:white;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 16px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  #navbar #logo {
+    position: relative;
+    left: 100px;
+    align-items: center;
+    cursor: pointer;
+
+  }
+  .logo-pic {
+    width: 5%;
+  }
+  
+  #navbar a:hover {
+    /* background-color: white; */
+    color: rgb(118, 205, 216);
+  }
+  
+  #navbar a:hover,
+  .active {
+    /* background-color: royalblue; */
+    /* color: #FFFFFF !important; */
+    font-weight: 700;
+    transition: all ease 0.4s;
+  }
+  
+  @media screen and (max-width: 580px) {
+    #navbar {
+      padding: 20px 10px !important;
+    }
+    #navbar a {
+      float: none;
+      display: block;
+      text-align: left;
+    }}
+    
+      
+/* Navigation Bar */
+
+
+/*Title Image*/
+@media screen and (min-width: 992px){
+
+.background-video-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 53.4rem;
+    width: 100%;
+    padding-bottom: 0px;
+    background-color: #000;
+}}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f1f1f1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  bottom: 180px;
+  /*background: rgba(0, 0, 0, 0.5);*/
+  color: #f1f1f1;
+  width: 100%;
+  height: 70vh;
+  font-size: 65px;
+  /*padding: 20px;*/
+}
+
+/*slider*/
+#about{
+  z-index: 1; position: absolute; top: 550px; left: 0px;
+}
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 75px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 192, 0);
+  line-height: 1.8rem;
+  
+}
+#mySlides2 {
+  display: none;
+  padding: 75px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 138, 206);
+  line-height: 1.8rem;
+  
+}
+#mySlides3 {
+  display: none;
+  padding: 75px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(201, 219, 72);
+  line-height: 1.8rem;
+  
+}
+#mySlides4 {
+  display: none;
+  padding: 75px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(118, 205, 216);
+  line-height: 1.8rem;
+  
+}
+.title__bottom-line{
+  /* display: none; */
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 2.8rem;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+/* q {font-style: italic;} */
+
+/* Add a blue color to the author */
+.author {
+  color: rgb(255, 255, 255);
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 70%;
+  margin: auto;
+}
+
+/*Rollover-Title*/
+
+.section-ui {
+  position: relative;
+  background-position: 50% center;
+  background-position-x: 50%;
+  background-position-y: center;
+  background-size: cover;
+}
+
+.rollover-tiles{
+display: flex;
+background-color: rgb(38, 56, 82);
+height: 20rem;
+cursor: pointer;
+}
+.rollover-tiles__title{
+  position: relative;
+  top:7rem; 
+  right: 2.8rem;
+  color:rgb(255, 255, 255);
+  font-size: 30px;
+}
+.roll-container {
+  position: relative;
+  width: 100%;
+
+}
+
+.image {
+    position: relative;
+    height: 8rem;
+    width: auto;
+    min-height: 8rem;
+    min-width: auto;
+    margin: 0px 0px 1.4rem;
+    top: 6rem;
+    left: 4.6rem;
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgb(255, 192, 0);
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.overlayroll {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgb(118, 205, 216);
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.roll-container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.roll-container:hover .overlayroll {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* Solution&Services */
+.services{
+  background: #292929;
+  
+  
+}
+.heading.white{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 1.6rem;
+}
+.services .contents{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.services .contents .servicesBx{
+  padding: 40px 20px;
+  background: #222;
+  color: #fff;
+  max-width: 340px;
+  margin: 20px;
+  text-align: center;
+  transition: 00.5s;
+}
+.services .contents .servicesBx:hover{
+  background: rgb(201, 219, 72);
+}
+.services .contents .servicesBx img{
+  max-width: 88px;
+  filter: invert(1);
+}
+.services .contents .servicesBx h2{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+
+/*Contact_US*/
+
+/* Style inputs */
+.contact1{
+  color: #053849;
+  font-size: 2.5rem; 
+}
+.contact2{
+  color: #053849;
+  font-size: 1.2rem;
+ 
+}
+.contact3{
+  color: #053849;
+  font-size: 1.2rem;
+}
+/* Style the container/contact section */
+.container1{
+  border-radius: 5px;
+  background-color: #b6b4b4;
+  padding: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid  rgb(118, 205, 216);
+  border-radius: 6px;
+  vertical-align: middle;
+}
+
+input[type=submit]:hover {
+  color: rgb(118, 205, 216);
+  background-color: black;
+}
+
+
+
+/* Create two columns that float next to eachother */
+.column1 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+  box-sizing: border-box;
+  
+}
+.column1 img{
+  height: 17rem;
+}
+.column2 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.contactInfoBx{
+  position: relative;
+}
+.box{
+  position: relative;
+  padding: 10px 0;
+  display: flex;
+}
+.icon{
+  min-width: 40px;
+  padding-top: 4px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  font-size: 24px;
+}
+.textC{
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300;
+}
+.CCC{
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+/* Copyright */
+.container-fluid{
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+.container-fluid i{
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+}
